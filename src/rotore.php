@@ -48,6 +48,6 @@ class Rotore
         } else {
             return $lettera; // se non è mappata restituisce la lettera così com'è
         }     
+    }
 }
-
 ?>
