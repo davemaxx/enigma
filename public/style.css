@@ -1,0 +1,90 @@
+/* Sfondo gradiente blu → viola */
+body {
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    background: linear-gradient(135deg, #1e3c72, #2a0845);
+    font-family: Arial, sans-serif;
+}
+
+/* Contenitore nav con glassmorphism */
+nav {
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 16px;
+    padding: 20px 40px;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    max-width: fit-content;
+  display: flex;
+  justify-content: center;
+  margin:10px auto;
+}
+
+/* Lista e link */
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #ffd700;
+}
+
+.encryptmsg {display: block; margin-top: 300px}
+
+.contenuto-centrato {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start; /* o center se vuoi centrare tutto */
+    padding-top: 40px;
+    gap: 40px;
+}
+
+.encryptmsg label {color: white; font-size: 16px; font-family: Arial, Helvetica, sans-serif;}
+
+.risultato {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background: rgba(255, 255, 255, 0.1);
+    color: white;
+    border-radius: 8px;
+    backdrop-filter: blur(4px);
+    font-size: 1.2em;
+}
+
+.presentazione {
+    max-width: 600px;
+    padding: 30px 40px;
+    background: rgba(255, 255, 255, 0.08);
+    border-radius: 20px;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    color: white;
+    text-align: center;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    animation: fadein 1s ease;
+}
+
+.presentazione h1 {
+    font-size: 2em;
+    margin-bottom: 15px;
+}
+
+.presentazione p {
+    line-height: 1.6;
+    font-size: 1.1em;
+}
