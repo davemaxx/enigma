@@ -88,3 +88,15 @@ nav ul li a:hover {
     line-height: 1.6;
     font-size: 1.1em;
 }
+
+.step-enigma {
+    background: rgba(255, 255, 255, 0.08);
+    border-radius: 12px;
+    padding: 20px;
+    margin-top: 20px;
+    color: white;
+    font-family: monospace;
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.1);
+}
+
+.step-enigma p, .risultato p {text-align: center;}
